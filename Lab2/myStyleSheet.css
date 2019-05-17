@@ -1,0 +1,209 @@
+﻿/*Responsive Design*/
+
+    /*Moblie*/
+@media screen and (max-width: 600px) {
+    body {
+        background-color: yellow;
+        
+    }
+    .navBar{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: 2;
+        text-align: center;
+        width:50%;
+    }
+    .navList{
+        display:none;
+    }
+
+    #nav-btn{
+        padding-top: 5px;
+        width: 80px;
+        box-sizing: border-box;
+        
+    }
+
+    ul.navList{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navList > li > a {
+        font-size: 20px;
+    }
+
+    .navList > li{
+        display: block;
+        width:100%;   
+    }
+
+    #nav-icon{
+        width:40px;
+    }
+
+     .photoGallery > li > img {
+
+     width:170px;
+     height:170px;
+     display:block;
+     
+    }
+
+     #virtual-pagePhotoGallery ul{
+         padding:0;
+         border:0;
+         margin:0;
+         float:left;
+     }
+}
+
+    /*Desktop*/
+    @media screen and (min-width: 600px){
+        #nav-btn{
+        display:none;
+        }
+        #virtual-pageForm{
+            float:right;
+            width:65%;
+        }
+        /*#virtual-pageForm{
+            
+        }*/
+    }
+
+/*Section CSS*/
+body {
+    margin: 0;
+    padding: 0;
+    background-image:url(images/owWallpaper.jpeg);
+    background-color:aqua;
+}
+
+header{
+    background-color: #96805e;
+    height: 100px;
+    padding: 20px;
+}
+main{
+
+}
+
+
+footer {
+    background: #2B2D42;
+    color: #8D99AE;
+    text-align:center;
+    width: 100%;
+    margin: 0;
+    padding: 2%;
+    overflow: hidden;
+}
+
+/*Element CSS*/
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+div > p{
+display:inline-block;
+float:left;
+width:80%;
+padding:1%;
+}
+
+h2, h3, h4 {
+    padding:2%;
+}
+article p{
+    padding:2%;
+}
+/*Class CSS*/
+
+.clear {
+    clear: both;
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.navBar{
+position:fixed;/**/
+padding-left:40%;  
+}
+
+.navList{
+    margin:0;
+    padding:0;
+    background-color:cornflowerblue;
+    text-align: center;
+}
+
+.navList > ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.navList > li{
+    display: inline-block;
+    padding:10px;
+    
+}
+
+.navList > li >a{
+    text-decoration: none;
+
+}
+
+.navList > li:hover{
+    background-color:cadetblue;
+}
+
+.photoGallery li{
+     list-style: none;
+     display:inline-block;
+
+    
+}
+
+.photoGallery img{
+
+     width:600px;
+     height:600px;
+     float:left;
+     padding:2%;
+}
+
+.photoGallery p{
+    text-align:center;
+}
+
+.vpImages img{
+     width:200px;
+     height:200px;
+     float:left;
+     padding:1%;
+     display:inline-block;
+}
+ /**/article{
+     background-color:maroon;
+ }
+
+ p{
+     background-color:antiquewhite;
+ }
+
+ tr{
+     background-color:antiquewhite;
+ }
+ 
+/*Id CSS*/
+#form1 tr {
+    display:block;
+    padding:2%;
+}
